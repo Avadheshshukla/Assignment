@@ -1,66 +1,63 @@
+<!-- Project Title -->
+# <h1 align = "center"> 🧑‍💻Chat-Application </h1>
 
-<center># Chat-Application</center>
+<!-- Description -->
+Hi there! Welcome to Chat-Application - a platform that allows you to create your own chat app using OpenAI's public API feature!
 
-Hi! This is a application for creating your own chat app with help of OpenAI public api feature!
-
-With this program you can chat with the actual chat gpt via a api.
-
-
-
-## 🚀 About Me
-*Hi, My name is Nikhil Sharma*,
-
-I'm a full stack developer apprentice at Geekster. I have knowledge of Java, OOPs, Maven, APIs, DSA, SpringBoot, MySQL.
-
+With this program, you can engage in conversations with an AI chatbot powered by OpenAI's GPT model via an API.
 
 # Data Flow
 
 ## Controller Section
 
-- This section contains a class that contanis API endpoint for accessing the application.
+- This section contains a class that contains API endpoints for accessing the application.
 
 * ### HomeController Class
 
 ## App Config Section
 
-- This section contains a class which defines a restTemplate which configures our http request
+- This section contains a class which defines a RestTemplate configuring our HTTP requests.
 
 * ### RestTemplate Bean
 
 ## Dto Section
 
-- This section contains dtos which will help us structure our request and responses, and these are based on the structure of our actual request and responses that we get and send to openAI.
+- This section contains DTOs to structure our requests and responses, based on OpenAI's API specifications.
 
-* ### OpenAIRequest
-* ### OpenAIResponse
+* ### ChatAIRequest
+* ### ChatAIResponse
 * ### Message
 
 ## Guide
 
-- Now this section contains some info on how one can access the api and use the application's feature.
-- Firstly you need to specify your own secret key in the application.properties section of the project.
-- The syntax for that should be ->
-
-          openai.apikey=YOUR_KEY
-
-- Please use exact format to avoid errors.
-
-- Below is the screenshot of how you can send request and the type of response received from OpenAI model.
-
-![Screenshot (20)](https://github.com/Nikhil-Sharma-CS/Chat-Application/assets/72157075/ba95dd59-eb22-4500-ad9d-79ea8f68fb17)
-
-
-
-
+- Here's how you can access the API and use the application's features:
+  - Set your own secret key in the `application.properties` file:
+    ```
+    openai.apikey=YOUR_KEY
+    ```
+  - Ensure the exact format to avoid errors.
 
 
 ## Summary
 
-*In summary, this application helps user to interact with the OpenAI model which is gpt-3.5-turbo*
+*In summary, this application facilitates user interaction with OpenAI's GPT-3.5-turbo model.*
 
-*It also uses unit tests cases to check the reliability and if the program is running as expected or not.*
-## 🔗 Links
-[![Github](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Nikhil-Sharma-CS)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikhil-sharma-cse)
+*It also includes unit test cases to ensure reliability and expected program behavior.*
+
+
+
+ <!-- Acknowledgments -->
+## Acknowledgments
+- Thank you to the Spring Boot and Java communities for providing excellent tools and resources.
+
+<!-- Contact -->
+## Contact📲
+For questions or feedback, please contact : Avadhesh Shukla👍
+- Maild Id 📧: avadheshsukla1636@gmail.com
+
+<h1 align="center">Thank You💖...<h1>
+<h3 align = "center"> ***********************************************************<h3>
+
+
 
 
