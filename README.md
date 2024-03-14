@@ -1,5 +1,5 @@
 
-<center># Chat-Application</center>center>
+<center># Chat-Application</center>
 
 Hi! This is a application for creating your own chat app with help of OpenAI public api feature!
 
